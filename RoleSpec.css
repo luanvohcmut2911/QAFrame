@@ -19,7 +19,7 @@
     width:100vw;
     display:flex;
 }
-.box_content_left{
+.box_content .box_content_left{
     font-size: 1.5rem;
     padding:2em;
     flex:1;
@@ -28,7 +28,7 @@
     justify-content: center;
     align-items: flex-start;
 }
-.box_content_right{
+.box_content .box_content_right{
     flex:1;
     background-image: url(Copy\ of\ Copy\ of\ dsc-ecosystem-banners-linkedin-blue.webp);
     background-size: 100%;
@@ -37,7 +37,7 @@
     justify-content: center;
     align-items:center;
 }
-.box_content_right>div{
+.box_content .box_content_right>div{
     width: 30rem;
     height:3rem;
     background-color: rgb(66,133,244);
@@ -47,7 +47,7 @@
     justify-content: center;
     align-items: center;
 }
-.box_content_right>div:hover{
+.box_content .box_content_right>div:hover{
     color:white;
     cursor: pointer;
 }
@@ -88,22 +88,22 @@
     cursor: pointer;
     color:white;
 }
-.icon>i{
+.footer .box .icon>i{
     color:rgb(179,179,179);
 }
-.icon .fa-envelope:hover {
+.footer .box .icon .fa-envelope:hover {
     color:black;
     cursor: pointer;
 }
-.icon .fa-facebook-f:hover{
+.footer .box .icon .fa-facebook-f:hover{
     color:black;
     cursor:pointer;
 }
-.icon .fa-linkedin-in:hover{
+.footer .box .icon .fa-linkedin-in:hover{
     color:black;
     cursor:pointer;
 }
-.icon .fa-discord:hover{
+.footer .box .icon .fa-discord:hover{
     color:black;
     cursor: pointer;
 }
