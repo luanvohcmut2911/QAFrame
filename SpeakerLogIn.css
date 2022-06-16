@@ -63,6 +63,8 @@ body{
     width:15rem;
     height: 3rem;
     border:none;
+    border-radius: 6px;
+    box-shadow: 5px 5px 5px rgb(179,179,179);
 }
 .body .logIn .form .inp > input:focus{
     outline:none;
@@ -79,6 +81,8 @@ body{
     border:none;
     background-color: rgb(66,133,244);
     color:white;
+    border-radius: 6px;
+    box-shadow: 5px 5px 5px rgb(179,179,179);
 }
 .body .logIn .form > button:hover{
     color:black;

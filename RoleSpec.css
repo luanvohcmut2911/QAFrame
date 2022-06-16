@@ -50,6 +50,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 6px;
+    box-shadow: 5px 5px 5px rgb(51,51,51);
 }
 .box_content .box_content_right>div:hover{
     color:white;
