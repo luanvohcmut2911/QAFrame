@@ -50,28 +50,88 @@ body{
     justify-content: center;
     align-items: center;
 }
-.body .logIn .form .inp{
+.body .logIn .form .inp-account{
     display:flex;
     justify-content: flex-start;
     align-items: center;
     position: relative;
     margin-bottom: 1rem;
 }
-.body .logIn .form .inp > input{
+.body .logIn .form .inp-account > input{
     padding-left: 2rem;
     /* margin-left:1rem; */
     width:15rem;
     height: 3rem;
     border:none;
 }
-.body .logIn .form .inp > input:focus{
+.body .logIn .form .inp-account > input:focus{
     outline:none;
 }
 
-.body .logIn .form .inp >i{
+.body .logIn .form .inp-account .user{
+    color:rgb(102,102,102);
+    position:absolute;
+    margin-left: 1em;
+}
+/*password*/
+.body .logIn .form .inp-password{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    /* margin-bottom: 1rem; */
+}
+.body .logIn .form .inp-password > input{
+    padding-left: 2rem;
+    /* margin-left:1rem; */
+    width:15rem;
+    height: 3rem;
+    border:none;
+}
+.body .logIn .form .inp-password > input:focus{
+    outline:none;
+}
+
+.body .logIn .form .inp-password .lock{
     color:rgb(102,102,102);
     position:absolute;
     margin-left: 1rem;
+}
+.body .logIn .form .inp-password .hidden{
+    display:none;
+    color:rgb(102,102,102);
+    position: absolute;
+    right:1rem;
+    border:none;
+    background-color:transparent;
+}
+.body .logIn .form .inp-password .hidden:hover{
+    color:black;
+    cursor: pointer;
+}
+.body .logIn .form .inp-password .figure-out{
+    color:rgb(102,102,102);
+    position: absolute;
+    right:1rem;
+    border:none;
+    background-color:transparent;
+}
+.body .logIn .form .inp-password .figure-out:hover{
+    color: black;
+    cursor: pointer;
+}
+/* end password */
+.forgot-pass{
+    margin-left:10rem;
+    margin-bottom: 1.5rem;
+}
+.forgot-pass>a{
+    text-decoration: none;
+    color:rgb(179,179,179)
+}
+.forgot-pass>a:hover{
+    color:black;
+    cursor: pointer;
 }
 .body .logIn .form > button{
     width:17rem;
@@ -83,6 +143,24 @@ body{
 .body .logIn .form > button:hover{
     color:black;
     cursor: pointer;    
+}
+.body .signIn>a{
+    text-decoration: none;
+    color: black;
+    margin:1rem;
+    font-size:1.5rem;
+}
+.body .signIn>a:hover{
+    color: rgb(66,133,244);
+    cursor: pointer;
+}
+.body .signUp>a{
+    text-decoration: none;
+    color:black;
+}
+.body .signUp>a:hover{
+    color: rgb(66,133,244);
+    cursor: pointer;
 }
 .footer{
     height: 25vh;

@@ -1,3 +1,7 @@
+body{
+    margin:0;
+    padding:0;
+}
 .header{
     height:5vh;
     width:100vw;
@@ -87,9 +91,10 @@
 .footer .form #btn:hover{
     cursor: pointer;
     color:white;
-}
-.footer .box .icon>i{
+} 
+.footer .box .icon>a{
     color:rgb(179,179,179);
+    text-decoration: none;
 }
 .footer .box .icon .fa-envelope:hover {
     color:black;
